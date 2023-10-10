@@ -1,0 +1,60 @@
+.login-container {
+    /* max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    font-family: 'Times New Roman', Times, serif; */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 100px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h2{
+    text-align: center;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .create-account{
+    text-align: center;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    /* padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; */
+    display: block;
+    margin: 0 auto;
+    padding: 12px 50px; 
+    font-size: 16px; 
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    
+    
+  }
+  

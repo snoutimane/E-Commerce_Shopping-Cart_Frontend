@@ -1,0 +1,21 @@
+<app-dashboard-navbar></app-dashboard-navbar>
+<div *ngFor="let item of cartItems">
+  <table class="cart-table">
+    <tr>
+      <td><img [src]="item.image" alt="Item Image" class="item-image"></td>
+      <td>
+        <p class="item-title">{{ item.productName }}</p>
+        <p class="item-price">{{ item.price }}</p>
+      </td>
+      
+      <td>
+        <p class="item-quantity">Quantity:
+          <button>-</button>
+          <span > {{ item.quantity }} </span>
+          <button>+</button>
+        </p>
+        <p class="item-totalAmount">Total Amount: {{ item.totalAmount }}</p>
+      </td>
+    </tr>
+  </table>
+</div>

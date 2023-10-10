@@ -1,0 +1,12 @@
+<nav>
+  <div class="logo"><img src="assets/images/shopping-cart-market.png" alt="shopping cart logo" id="myImage"/>Shopping Cart</div>
+  <ul class="dashboard"><a routerLink="/dashboard"><button>Home</button></a></ul>
+  <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+      <button>Search</button>
+  </div>
+  <ul class="menu">
+    <li><a routerLink="/cart"><button>Cart</button></a></li>
+    <li><button (click)="logout()">Logout</button></li>
+  </ul>
+</nav>
